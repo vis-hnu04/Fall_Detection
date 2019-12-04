@@ -1,0 +1,6 @@
+Fall detection algorithim for fisheye images in indoor video sequences
+based on "A fall detection algorithm for indoor video
+sequences captured by fish-eye camera"
+
+Requirments 
+opencv>2
