@@ -25,7 +25,7 @@ if (argc != 2)
 
 	string arg = argv[1];
 
-HumanFallDetection *test=new HumanFallDetecion(7,3,arg);
+HumanFallDetection *test=new HumanFallDetection(7,3,arg);
 test->run();
 
 }
