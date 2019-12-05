@@ -1,6 +1,18 @@
-Fall detection algorithim for fisheye images in indoor video sequences
-based on "A fall detection algorithm for indoor video
-sequences captured by fish-eye camera"
+Human Fall detection algorithim for fisheye images in indoor video sequences
+based on the orientations of vectors in the image.
 
-Requirments 
+REQUIREMENTS
 opencv>2
+cmake
+
+HOW TO USE IN LINUX
+1. make new directory
+2.clone the repo to your new directory
+3.cd to new directory
+4.cmake .
+5.make -j#no of processors (to speed up the process)
+6.binary dumped into the current directory
+
+References
+"A fall detection algorithm for indoor video sequences captured by fish-eye camera" kostas Delibasis ,Ilias Maglogianis
+
